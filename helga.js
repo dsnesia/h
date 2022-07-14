@@ -613,17 +613,17 @@ let uname = args[0]
 if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
         if(!uname) m.reply("mana username nya")
         
-        axios.get(`https://ds.dosg.my.id:2087/json-api/removeacct?api.version=1&username=${uname}`, { headers: { Authorization: "Basic " + Buffer.from("root:Y4{oRRue9bSmLt6G").toString("base64") } })
+        axios.get(`https://log.dsnesia.my.id:2087/json-api/removeacct?api.version=1&username=${uname}`, { headers: { Authorization: "Basic " + Buffer.from("root:@@123@@kontol").toString("base64") } })
         .then(e=>{if([1, "1"].includes(e.data?.metadata?.result)) m.reply(`done user ${uname} Telah di Termint`); else {m.reply("error"); console.log(e.data)}})
         .catch(e=>{m.reply("error"); console.log(JSON.stringify(e, null, 2))})
       break
-                                          case 'subs':
-                                          m.reply(`YT : https://youtube.com/c/HelgaZexs妥`)
+                                          case 'GG':
+                                          m.reply('JELAS GG LAH CUY')
                                           break
                                           case 'addpack':
          if(from != "120363041199947223@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         let sUser1 = "root";
-        let sPass1 = "Y4{oRRue9bSmLt6G";
+        let sPass1 = "@@123@@kontol";
         let serverName1 = "*DSNESIA*";
 
         let uname1 = args?.join(" ")?.trim()?.split("|")?.[0]?.trim();
